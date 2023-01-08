@@ -66,7 +66,7 @@ public class MobileUIActions {
         // Check if element is visible
         try {
             // Wait for the element to be visible
-            new WebDriverWait(driver,Duration.ofSeconds(30)).until(ExpectedConditions.visibilityOfElementLocated(elementLocator));
+            new WebDriverWait(driver,Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOfElementLocated(elementLocator));
           //Scroll to the mobile element >> to be implemented later
 
             // Check if the element is displayed
